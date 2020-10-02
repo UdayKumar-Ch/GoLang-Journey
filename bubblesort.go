@@ -8,17 +8,16 @@ import (
 	s "strings"
 )
 
+func Swap(x []int, i int) {
+	(x)[i], (x)[i+1] = (x)[i+1], (x)[i]
+}
+
 func BubbleSort(x []int) {
 	end := len(x) - 1
-	// fmt.Print("Array : ", *x)
-	// fmt.Print("End : ", end)
-	for {
-		if end == 0 {
-			break
-		}
-		for i := 0; i < len(x)-1; i++ {
+	for j := len(x) - 1; j >= 0; j-- {
+		for i := 0; i < j; i++ {
 			if (x)[i] > (x)[i+1] {
-				(x)[i], (x)[i+1] = (x)[i+1], (x)[i]
+				Swap(x, i)
 			}
 		}
 		end -= 1
