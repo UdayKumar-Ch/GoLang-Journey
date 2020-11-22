@@ -12,4 +12,4 @@ Syntax for building and running go files:
 2. Switch_Example.go
 
 
-For Any suggestions and issues. Please send an email to : UdayKumar.chavata@gmail.com (or) create an new issue under issue.
+For Any suggestions and issues. Please send an email to : UdayKumar.ch.master@gmail.com (or) create an new issue under issue.
